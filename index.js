@@ -114,7 +114,7 @@ const {
     updateManyPersons
 } = require('./Week4lab');
 
-const MONGO_URI = 'mongodb://localhost:27017/Employee';  // if you are using the mongdb at your system
+//const MONGO_URI = 'mongodb://localhost:27017/Employee';  // if you are using the mongdb at your system
 const MONGO_URI = 'mongodb+srv://yourusername:yourpassword@cluster0.tqdie1c.mongodb.net/Employee';
 
 mongoose.connect(MONGO_URI)
